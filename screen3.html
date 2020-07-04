@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen-3</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+    <body>
+
+        <div class="h-16 flex items-center lg:items-stretch justify-between bg-white shadow relative z-10">
+            <div class="pl-6 w-64 h-full flex items-center lg:border-r">
+                <svg id="logo" enable-background="new 0 0 300 300" height="44" viewBox="0 0 300 300" width="43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <path fill="#5F7DF2" d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z" />
+                    </g>
+                </svg>
+            </div>
+            <div class="hidden lg:flex w-4/5 pr-6">
+                <div class="w-1/2 h-full hidden lg:flex items-center pl-6 pr-24">
+                    <div class="relative w-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 absolute ml-4 inset-0 m-auto icon icon-tabler icon-tabler-search" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <circle cx="10" cy="10" r="7" />
+                            <line x1="21" y1="21" x2="15" y2="15" />
+                        </svg>
+                        <input class="border border-gray-100 focus:outline-none focus:border-indigo-500 rounded w-full text-sm text-gray-500 bg-gray-100 pl-12 py-2" type="text" placeholder="Search" />
+                    </div>
+                </div>
+                <div class="w-1/2 hidden lg:flex">
+                    <div class="w-full flex items-center pl-8 justify-end">
+                        <div class="h-full w-20 flex items-center justify-center border-r border-l">
+                            <div class="relative">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-bell" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                                    <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                                </svg>
+                                <div class="w-2 h-2 rounded-full bg-red-400 border border-white absolute inset-0 mt-1 mr-1 m-auto"></div>
+                            </div>
+                        </div>
+                        <div class="h-full w-20 flex items-center justify-center border-r mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-messages" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+                                <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+                            </svg>
+                        </div>
+                        <div class="rounded-full relative">
+                            <img class="rounded-full" src="https://images.unsplash.com/photo-1586548634342-04801afc8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=36&q=80" alt="avatar" />
+                            <div class="w-2 h-2 rounded-full bg-green-400 border border-white absolute inset-0 mb-0 mr-0 m-auto"></div>
+                        </div>
+                        <p class="text-gray-800 text-sm mx-3">Jane Doe</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 mr-8 visible lg:hidden icon icon-tabler icon-tabler-menu" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <line x1="4" y1="8" x2="20" y2="8" />
+                <line x1="4" y1="16" x2="20" y2="16" />
+            </svg>
+        </div>
+        <!-- Navigation ends -->
+        <div class="relative flex flex-no-wrap">
+            <!-- Sidebar starts -->
+            <!-- Remove class [ hidden ] and replace [ sm:block ] with [ block ] -->
+                <div class="absolute sm:relative w-64 pl-4 border-r bg-white shadow hidden sm:block">
+                    <ul class="rounded py-8">
+                        <li class="cursor-pointer text-indigo-500 text-sm leading-3 tracking-normal pl-2 py-2 hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
+                            <div class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <rect x="4" y="4" width="6" height="6" rx="1" />
+                                    <rect x="14" y="4" width="6" height="6" rx="1" />
+                                    <rect x="4" y="14" width="6" height="6" rx="1" />
+                                    <rect x="14" y="14" width="6" height="6" rx="1" />
+                                </svg>
+                                <span class="ml-2">Dashboard</span>
+                            </div>
+                        </li>
+                        <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pl-2 mt-6 py-2 hover:text-indigo-500 focus:text-indigo-500 focus:outline-none flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-800 icon icon-tabler icon-tabler-puzzle" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
+                            </svg>
+                            <span class="ml-2">Products</span>
+                        </li>
+                        <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pl-2 mt-6 py-2 hover:text-indigo-500 flex items-center focus:text-indigo-500 focus:outline-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-800 icon icon-tabler icon-tabler-compass" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                                <circle cx="12" cy="12" r="9" />
+                            </svg>
+                            <span class="ml-2">Performance</span>
+                        </li>
+                        <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pl-2 mt-6 py-2 hover:text-indigo-500 flex items-center focus:text-indigo-500 focus:outline-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-800 icon icon-tabler icon-tabler-code" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <polyline points="7 8 3 12 7 16" />
+                                <polyline points="17 8 21 12 17 16" />
+                                <line x1="14" y1="4" x2="10" y2="20" />
+                            </svg>
+                            <span class="ml-2">Deliverables</span>
+                        </li>
+                    </ul>
+                </div>
+
+            <div class="container mx-auto py-10 md:w-4/5 w-11/12 px-6">
+                <!-- Remove class [ border-dashed border-2 border-gray-300 ] to remove dotted border -->
+                <div class="w-full h-full">
+                    <div class="container mx-auto">
+                        <div class="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16">
+                            <h1 class="xl:text-5xl text-3xl text-center text-gray-800 font-extrabold mb-5 pt-4">Partnerships with Coveted Brands</h1>
+                            <p class="text-xl text-center text-gray-600 font-normal xl:w-10/12 xl:mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+                        </div>
+                        <div class="xl:py-16 lg:py-16 md:py-16 sm:py-16 px-15 flex flex-wrap">
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r :border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/adidas-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b xl:border-r lg:border-r border-gray-200 xl:pb-10 pb-16 items-center">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/channel-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-b lg:border-b border-gray-200 xl:pb-10 pb-16 pt-4 items-center">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/nike-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center lg:border-b xl:border-b lg:border-l xl:border-l border-gray-200 xl:pb-10 pb-16 items-center">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/toyota-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/gs1-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-r lg:border-r border-gray-200 xl:pt-10 items-center">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/berry-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 lg:pt-10 md:pt-2 pt-16">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/min-dark.png" alt="" />
+                            </div>
+                            <div class="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16">
+                                <img src="https://dh-ui.s3.amazonaws.com/assets/honda-dark.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full bg-gray-800 py-12">
+            <div class="container mx-auto xl:flex text-center xl:text-left lg:text-left">
+                <div class="xl:w-3/6 sm:w-full lg:w-full text-center xl:text-left mb-6 xl:mb-0">
+                    <p class="text-white sm:text-center lg:text-center xl:text-left">2020 The Good Company. All Rights Reserved</p>
+                </div>
+                <div class="xl:w-3/6 sm:w-full">
+                    <ul class="xl:flex lg:flex md:flex sm:flex justify-around">
+                        <li class="text-white mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"><a href="#">Terms of service</a></li>
+                        <li class="text-white mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"><a href="#">Privacy Policy</a></li>
+                        <li class="text-white mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"><a href="">Security</a></li>
+                        <li class="text-white mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

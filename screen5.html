@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen-5</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="w-full mx-auto bg-white shadow">
+        <div class="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
+            <div class="h-full flex items-center">
+                <div class="mr-10 flex items-center">
+                    <svg id="logo" enable-background="new 0 0 300 300" height="44" viewBox="0 0 300 300" width="43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path fill="#5F7DF2" d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z" />
+                        </g>
+                    </svg>
+                    <h3 class="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">The North</h3>
+                </div>
+                <ul class="pr-12 xl:flex items-center h-full hidden">
+                    <li class="cursor-pointer h-full flex items-center text-sm text-indigo-500 tracking-normal border-b-2 border-indigo-500">
+                        Dashboard
+                    </li>
+                    <li class="cursor-pointer h-full flex items-center text-sm text-gry-800 mx-10 tracking-normal">
+                        Products
+                    </li>
+                    <li class="cursor-pointer h-full flex items-center text-sm text-gry-800 mr-10 tracking-normal">
+                        Performance
+                    </li>
+                    <li class="cursor-pointer h-full flex items-center text-sm text-gray-800 tracking-normal">
+                        Deliverables
+                    </li>
+                </ul>
+            </div>
+            <div class="h-full lg:flex items-center justify-end hidden">
+                <div class="w-full h-full flex items-center">
+                    <div class="w-full pr-12 h-full flex items-center border-r">
+                        <div class="relative w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 absolute ml-3 inset-0 m-auto icon icon-tabler icon-tabler-search" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <circle cx="10" cy="10" r="7" />
+                                <line x1="21" y1="21" x2="15" y2="15" />
+                            </svg>
+                            <input class="border border-gray-100 focus:outline-none focus:border-indigo-500 w-56 rounded text-sm text-gray-500 bg-gray-100 pl-8 py-2" type="text" placeholder="Search" />
+                        </div>
+                    </div>
+                    <div class="w-full h-full flex">
+                        <div class="w-32 h-full flex items-center justify-center border-r">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 icon icon-tabler icon-tabler-bell" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                                <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                            </svg>
+                        </div>
+                        <div class="w-full flex items-center justify-end">
+                            <img class="rounded" src="https://images.unsplash.com/photo-1586548634342-04801afc8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=36&q=80" alt="logo" />
+                            <p class="text-gray-800 text-sm ml-2">Jane Doe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="visible lg:hidden icon icon-tabler icon-tabler-menu" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <line x1="4" y1="8" x2="20" y2="8" />
+                <line x1="4" y1="16" x2="20" y2="16" />
+            </svg>
+        </div>
+    </div>
+
+    <div class="container mx-auto w-5/6 md:w-2/3 bg-white py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between px-5 sm:px-10 shadow rounded-t">
+        <div class="flex items-center mb-4 sm:mb-0 md:mb-0 lg:mb-0 xl:mb-0">
+            <div class="relative w-12 h-12 rounded">
+                <img class="w-full h-full object-cover inset-0 absolute rounded" src="https://images.pexels.com/photos/1036620/pexels-photo-1036620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=48&w=48" alt="avatar" />
+            </div>
+            <div class="ml-2">
+                <h2 class="text-gray-800 text-sm font-bold">Jane Doe</h2>
+                <p class="font-normal text-xs text-gray-600">View Profile</p>
+            </div>
+        </div>
+        <div>
+            <button class="font-normal bg-gray-200 focus:outline-none transition duration-150 ease-in-out hover:bg-gray-300 rounded text-indigo-600 px-6 py-2 text-sm">Options</button>
+            <button class="ml-2 sm:ml-3 font-normal focus:outline-none bg-indigo-500 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-6 py-2 text-sm">Contact</button>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-6 py-10">
+        <div class="sm:shadow rounded bg-white">
+            <div class="xl:w-full w-11/12 mx-auto flex flex-wrap items-center justify-between px-8 mb-2 xl:mb-0 lg:mb-0 border-b border-gray-300">
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded">
+                            <img src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60" alt="" class="h-full w-full object-cover rounded overflow-hidden shadow" />
+                        </div>
+                        <p class="text-lg text-gray-800 pl-2 font-normal">Jonathan Stark</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">jonathanstark97@gmail.com</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="4" y="5" width="16" height="16" rx="2" />
+                            <line x1="16" y1="3" x2="16" y2="7" />
+                            <line x1="8" y1="3" x2="8" y2="7" />
+                            <line x1="4" y1="11" x2="20" y2="11" />
+                            <rect x="8" y="15" width="2" height="2" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Applied on 28 March, 2020</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                            fill="#68D391">
+                            <path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2.3-8.7l1.3 1.29 3.3-3.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-2-2a1 1 0 0 1 1.4-1.42z" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Completed Profile Screening</p>
+                    </div>
+                </div>
+            </div>
+            <div class="xl:w-full w-11/12 mx-auto flex flex-wrap items-center justify-between px-8 mb-2 xl:mb-0 lg:mb-0 border-b border-gray-300">
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded">
+                            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=80" alt="" class="h-full w-full object-cover rounded overflow-hidden shadow" />
+                        </div>
+                        <p class="text-lg text-gray-800 pl-2 font-normal">Hannah Geller</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">hannahgeller89@gmail.com</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="4" y="5" width="16" height="16" rx="2" />
+                            <line x1="16" y1="3" x2="16" y2="7" />
+                            <line x1="8" y1="3" x2="8" y2="7" />
+                            <line x1="4" y1="11" x2="20" y2="11" />
+                            <rect x="8" y="15" width="2" height="2" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Applied on 28 March, 2020</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                            fill="#68D391">
+                            <path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2.3-8.7l1.3 1.29 3.3-3.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-2-2a1 1 0 0 1 1.4-1.42z" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Completed Profile Screening</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="xl:w-full w-11/12 mx-auto flex flex-wrap items-center justify-between px-8 mb-2 xl:mb-0 lg:mb-0 border-b border-gray-300">
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded">
+                            <img src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=60" alt="" class="h-full w-full object-cover rounded overflow-hidden shadow" />
+                        </div>
+                        <p class="text-lg text-gray-800 pl-2 font-normal">Andres Berlin</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">andresberlin72@gmail.com</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="4" y="5" width="16" height="16" rx="2" />
+                            <line x1="16" y1="3" x2="16" y2="7" />
+                            <line x1="8" y1="3" x2="8" y2="7" />
+                            <line x1="4" y1="11" x2="20" y2="11" />
+                            <rect x="8" y="15" width="2" height="2" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Applied on 28 March, 2020</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                            fill="#68D391">
+                            <path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2.3-8.7l1.3 1.29 3.3-3.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-2-2a1 1 0 0 1 1.4-1.42z" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Completed Profile Screening</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="xl:w-full w-11/12 mx-auto flex flex-wrap items-center justify-between px-8 mb-2 xl:mb-0 lg:mb-0">
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded">
+                            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=48&q=80" alt="" class="h-full w-full object-cover rounded overflow-hidden shadow" />
+                        </div>
+                        <p class="text-lg text-gray-800 pl-2 font-normal">Ashley Wilson</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">ashleywilson99@gmail.com</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event"
+                            width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718096" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <rect x="4" y="5" width="16" height="16" rx="2" />
+                            <line x1="16" y1="3" x2="16" y2="7" />
+                            <line x1="8" y1="3" x2="8" y2="7" />
+                            <line x1="4" y1="11" x2="20" y2="11" />
+                            <rect x="8" y="15" width="2" height="2" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Applied on 28 March, 2020</p>
+                    </div>
+                </div>
+                <div class="xl:w-1/5 py-5">
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                            fill="#68D391">
+                            <path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-2.3-8.7l1.3 1.29 3.3-3.3a1 1 0 0 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-2-2a1 1 0 0 1 1.4-1.42z" />
+                        </svg>
+                        <p class="text-sm text-gray-600 pl-2 font-normal">Completed Profile Screening</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

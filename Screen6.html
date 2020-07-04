@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen-6</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="h-16 flex items-center lg:items-stretch justify-between bg-white shadow relative z-10">
+        <div class="pl-6 w-64 h-full flex items-center lg:border-r">
+            <svg id="logo" enable-background="new 0 0 300 300" height="44" viewBox="0 0 300 300" width="43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <path fill="#5F7DF2" d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z" />
+                </g>
+            </svg>
+        </div>
+        <div class="hidden lg:flex w-4/5 pr-6">
+            <div class="w-1/2 h-full hidden lg:flex items-center pl-6 pr-24">
+                <div class="relative w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 absolute ml-4 inset-0 m-auto icon icon-tabler icon-tabler-search" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+                    <input class="border border-gray-100 focus:outline-none focus:border-indigo-500 rounded w-full text-sm text-gray-500 bg-gray-100 pl-12 py-2" type="text" placeholder="Search" />
+                </div>
+            </div>
+            <div class="w-1/2 hidden lg:flex">
+                <div class="w-full flex items-center pl-8 justify-end">
+                    <div class="h-full w-20 flex items-center justify-center border-r border-l">
+                        <div class="relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-bell" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"></path>
+                                <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                                <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                            </svg>
+                            <div class="w-2 h-2 rounded-full bg-red-400 border border-white absolute inset-0 mt-1 mr-1 m-auto"></div>
+                        </div>
+                    </div>
+                    <div class="h-full w-20 flex items-center justify-center border-r mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-messages" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+                            <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+                        </svg>
+                    </div>
+                    <div class="rounded-full relative">
+                        <img class="rounded-full" src="https://images.unsplash.com/photo-1586548634342-04801afc8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=36&q=80" alt="avatar" />
+                        <div class="w-2 h-2 rounded-full bg-green-400 border border-white absolute inset-0 mb-0 mr-0 m-auto"></div>
+                    </div>
+                    <p class="text-gray-800 text-sm mx-3">Jane Doe</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 mr-8 visible lg:hidden icon icon-tabler icon-tabler-menu" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <line x1="4" y1="8" x2="20" y2="8" />
+            <line x1="4" y1="16" x2="20" y2="16" />
+        </svg>
+    </div>
+    <!-- Navigation ends -->
+
+
+    <div class="container p-6 mx-auto">
+        <div class="flex flex-wrap">
+            <div class="md:w-3/4 w-full md:pr-8 mb-12">
+                <!-- Remove class [ h-24 ] when adding a card block -->
+                <!-- Remove class [ border-gray-300 border-dashed border-2 ] to remove dotted border -->
+                <div class="rounded">
+                    <div
+                    class="my-6 mx-auto bg-white shadow rounded xl:flex lg:flex">
+                    <div
+                        class="xl:w-2/5 lg:w-2/5 bg-gray-100 py-8 border-gray-300 xl:border-r-2 rounded-tl xl:rounded-bl rounded-tr xl:rounded-tr-none lg:border-r-2 border-b xl:border-b-0 flex justify-center items-center">
+                        <div class="flex flex-col items-center">
+                            <div class="h-24 w-24 rounded-full mb-3">
+                                <img class="h-full w-full object-cover rounded-full shadow"
+                                    src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                    alt="" />
+                            </div>
+                            <p class="mb-2 text-lg font-bold text-gray-900">Shane Doe</p>
+                            <p class="mb-6 text-sm text-gray-700">shane@awesomeness.com</p>
+                            <button
+                                class="bg-white font-medium transition duration-150 ease-in-out hover:bg-gray-200 rounded text-gray-800 px-6 py-2 text-sm border border-gray-300">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                    <div class="xl:w-3/5 lg:w-3/5 px-6 py-8">
+                        <div class="flex flex-wrap justify-between">
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Birthday</p>
+                                    <p class="text-sm text-gray-700">29 Jan, 1982</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Gender</p>
+                                    <p class="text-sm text-gray-700">Male</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Location</p>
+                                    <p class="text-sm text-gray-700">California, USA</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Phone Number</p>
+                                    <p class="text-sm text-gray-700">202-555-0191</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Last Login</p>
+                                    <p class="text-sm text-gray-700">Today</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Status</p>
+                                    <p class="text-sm text-gray-700">Approved</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="md:w-1/4 w-full mb-12">
+                <!-- Remove class [ h-24 ] when adding a card block -->
+                <!-- Remove class [ border-gray-300 border-dashed border-2 ] to remove dotted border -->
+                <div class="rounded">
+                    <div class="bg-white shadow rounded mx-auto">
+                        <div class="relative w-full h-40">
+                            <img class="rounded-t z-0 w-full h-full absolute inset-0 object-cover" src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="banner" />
+                        </div>
+                        <div class="pt-5 w-full h-full">
+                            <div class="px-5 flex items-center justify-between mb-4">
+                                <p class="text-indigo-500 leading-3 tracking-normal text-sm font-normal">23 December, Sunday</p>
+                                <p class="text-indigo-500 leading-3 tracking-normal text-sm font-normal">12:00pm</p>
+                            </div>
+                            <h4 class="px-5 text-lg leading-5 font-bold tracking-normal text-gray-800 mb-2">User Conference 2020</h4>
+                            <p class="px-5 text-gray-600 text-sm font-normal tracking-normal leading-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor are incididunt. Check the actions below for more.</p>
+                            <div class="py-4 px-5 flex justify-between border-t border-gray-300">
+                                <p class="text-gray-800 text-sm leading-5 tracking-normal">Las Vegas, Nevada</p>
+                                <div class="flex items-center">
+                                    <svg class="text-gray-600 mr-4 feather feather-bookmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                    <svg class="text-indigo-500 feather feather-share-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="18" cy="5" r="3"></circle>
+                                        <circle cx="6" cy="12" r="3"></circle>
+                                        <circle cx="18" cy="19" r="3"></circle>
+                                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-6 mx-auto">
+        <div class="flex flex-wrap">
+            <div class="md:w-3/4 w-full md:pr-8 mb-12">
+                <!-- Remove class [ h-24 ] when adding a card block -->
+                <!-- Remove class [ border-gray-300 border-dashed border-2 ] to remove dotted border -->
+                <div class="rounded">
+                    <div
+                    class="my-6 mx-auto bg-white shadow rounded xl:flex lg:flex">
+                    <div
+                        class="xl:w-2/5 lg:w-2/5 bg-gray-100 py-8 border-gray-300 xl:border-r-2 rounded-tl xl:rounded-bl rounded-tr xl:rounded-tr-none lg:border-r-2 border-b xl:border-b-0 flex justify-center items-center">
+                        <div class="flex flex-col items-center">
+                            <div class="h-24 w-24 rounded-full mb-3">
+                                <img class="h-full w-full object-cover rounded-full shadow"
+                                    src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                    alt="" />
+                            </div>
+                            <p class="mb-2 text-lg font-bold text-gray-900">Shane Doe</p>
+                            <p class="mb-6 text-sm text-gray-700">shane@awesomeness.com</p>
+                            <button
+                                class="bg-white font-medium transition duration-150 ease-in-out hover:bg-gray-200 rounded text-gray-800 px-6 py-2 text-sm border border-gray-300">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                    <div class="xl:w-3/5 lg:w-3/5 px-6 py-8">
+                        <div class="flex flex-wrap justify-between">
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Birthday</p>
+                                    <p class="text-sm text-gray-700">29 Jan, 1982</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Gender</p>
+                                    <p class="text-sm text-gray-700">Male</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Location</p>
+                                    <p class="text-sm text-gray-700">California, USA</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5 mb-8">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Phone Number</p>
+                                    <p class="text-sm text-gray-700">202-555-0191</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Last Login</p>
+                                    <p class="text-sm text-gray-700">Today</p>
+                                </div>
+                            </div>
+                            <div class="w-2/5">
+                                <div class="border-b pb-3">
+                                    <p class="mb-2 text-sm text-gray-700 font-medium">Status</p>
+                                    <p class="text-sm text-gray-700">Approved</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="md:w-1/4 w-full mb-12">
+                <!-- Remove class [ h-24 ] when adding a card block -->
+                <!-- Remove class [ border-gray-300 border-dashed border-2 ] to remove dotted border -->
+                <div class="rounded">
+                    <div class="bg-white shadow rounded mx-auto">
+                        <div class="relative w-full h-40">
+                            <img class="rounded-t z-0 w-full h-full absolute inset-0 object-cover" src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="banner" />
+                        </div>
+                        <div class="pt-5 w-full h-full">
+                            <div class="px-5 flex items-center justify-between mb-4">
+                                <p class="text-indigo-500 leading-3 tracking-normal text-sm font-normal">23 December, Sunday</p>
+                                <p class="text-indigo-500 leading-3 tracking-normal text-sm font-normal">12:00pm</p>
+                            </div>
+                            <h4 class="px-5 text-lg leading-5 font-bold tracking-normal text-gray-800 mb-2">User Conference 2020</h4>
+                            <p class="px-5 text-gray-600 text-sm font-normal tracking-normal leading-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor are incididunt. Check the actions below for more.</p>
+                            <div class="py-4 px-5 flex justify-between border-t border-gray-300">
+                                <p class="text-gray-800 text-sm leading-5 tracking-normal">Las Vegas, Nevada</p>
+                                <div class="flex items-center">
+                                    <svg class="text-gray-600 mr-4 feather feather-bookmark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                    <svg class="text-indigo-500 feather feather-share-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="18" cy="5" r="3"></circle>
+                                        <circle cx="6" cy="12" r="3"></circle>
+                                        <circle cx="18" cy="19" r="3"></circle>
+                                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

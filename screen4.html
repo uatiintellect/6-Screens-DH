@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen-4</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+    <body>
+
+<div class="relative py-6 lg:py-8">
+    <img class="z-0 w-full h-full absolute inset-0 object-cover" src="https://images.unsplash.com/photo-1575318080244-dd217d9db1e2?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1080&amp;q=80" alt="banner" />
+    <div class="z-10 relative container px-6 mx-auto flex flex-col md:flex-row items-start md:items-center justify-between">
+        <div>
+            <h4 class="text-2xl font-bold leading-tight text-white">Dashboard</h4>
+            <ul class="flex flex-col md:flex-row items-start md:items-center text-gray-300 text-sm mt-6">
+                <li class="flex items-center mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 icon icon-tabler icon-tabler-paperclip" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5"></path>
+                    </svg>
+                    <span class="mr-3">Remote</span>
+                </li>
+                <li class="flex items-center mr-4 mt-4 md:mt-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 icon icon-tabler icon-tabler-trending-up" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <polyline points="3 17 9 11 13 15 21 7"></polyline>
+                        <polyline points="14 7 21 7 21 14"></polyline>
+                    </svg>
+                    <span class="mr-3"> Trending</span>
+                </li>
+                <li class="flex items-center mt-4 md:mt-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 icon icon-tabler icon-tabler-plane-departure" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"></path>
+                        <path d="M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z" transform="rotate(-15 12 12) translate(0 -1)"></path>
+                        <line x1="3" y1="21" x2="21" y2="21"></line>
+                    </svg>
+                    <span>Started on 29 Jan 2020</span>
+                </li>
+            </ul>
+        </div>
+        <div class="mt-6 md:mt-0">
+            <button class="mr-3 bg-white focus:outline-none transition duration-150 ease-in-out rounded text-indigo-600 hover:bg-gray-300 px-5 py-2 text-sm">Back</button>
+            <button class="transition focus:outline-none duration-150 ease-in-out hover:bg-indigo-600 bg-indigo-500 rounded text-white px-8 py-2 text-sm">Edit Profile</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 p-6 gap-8">
+    <!-- Remove class [ h-24 ] when adding a card block -->
+    <!-- Remove class [ border-gray-300 border-dashed border-2 ] to remove dotted border -->
+    <div class="rounded">
+        <div class="bg-white shadow rounded">
+            <h2 class="p-4 sm:p-8 text-lg leding-4 font-bold text-gray-800">Your Subscriptions</h2>
+            <div class="py-4 px-5 border-gray-200 border rounded mx-4 sm:mx-8 mb-6">
+                <div class="flex items-enter mb-5 justify-between">
+                    <div class="flex items-center">
+                        <div class="mr-4 w-12 h-12 rounded shadow">
+                            <img class="w-full h-full overflow-hidden object-cover object-center rounded" src="https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" alt="E" />
+                        </div>
+                        <div>
+                            <h3 class="mb-2 sm:mb-1 text-gray-800 text-base font-normal leading-4">The Economist</h3>
+                            <p class="text-gray-600 text-xs leading-3">Since: 27 February, 2020</p>
+                        </div>
+                    </div>
+                    <div class="w-12 h-6 rounded-full bg-indigo-500 relative shadow-sm">
+                        <div class="w-4 h-4 rounded-full bg-white absolute mr-1 inset-0 m-auto shadow"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row items-start sm:items-center">
+                    <p class="font-normal text-sm flex items-center">Status: <span class="text-indigo-500 ml-1">Active</span></p>
+                    <p class="my-1 sm:my-0 mx-0 sm:mx-8 font-normal text-sm flex items-center">Articles Read: <span class="text-indigo-500 ml-1">25</span></p>
+                    <p class="font-normal text-sm flex items-center">Articles Saved: <span class="text-indigo-500 ml-1">08</span></p>
+                </div>
+            </div>
+            <div class="py-4 px-5 border-gray-200 border rounded mx-4 sm:mx-8 mb-6">
+                <div class="flex items-enter mb-4 justify-between">
+                    <div class="flex items-center">
+                        <div class="mr-4 w-12 h-12 rounded shadow">
+                            <img class="w-full h-full overflow-hidden object-cover rounded" src="https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" alt="E" />
+                        </div>
+                        <div>
+                            <h3 class="mb-2 sm:mb-1 text-gray-800 text-base font-normal leading-4">The Economist</h3>
+                            <p class="text-gray-600 text-xs leading-3">Since: 27 February, 2020</p>
+                        </div>
+                    </div>
+                    <div class="w-12 h-6 rounded-full bg-gray-200 relative shadow-sm">
+                        <div class="w-4 h-4 rounded-full bg-white absolute ml-1 inset-0 m-auto shadow-md"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row items-start sm:items-center">
+                    <p class="font-normal text-sm flex items-center">Status: <span class="text-indigo-500 ml-1">Inactive</span></p>
+                    <p class="my-1 sm:my-0 mx-0 sm:mx-8 font-normal text-sm flex items-center">Articles Read: <span class="text-indigo-500 ml-1">25</span></p>
+                    <p class="font-normal text-sm flex items-center">Articles Saved: <span class="text-indigo-500 ml-1">08</span></p>
+                </div>
+            </div>
+            <div class="py-4 px-5 border-gray-200 border rounded mx-4 sm:mx-8 mb-8">
+                <div class="flex items-enter mb-4 justify-between">
+                    <div class="flex items-center">
+                        <div class="mr-4 w-12 h-12 rounded shadow">
+                            <img class="w-full h-full overflow-hidden object-cover rounded" src="https://images.unsplash.com/photo-1494252713559-f26b4bf0b174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=150&q=80" alt="E" />
+                        </div>
+                        <div>
+                            <h3 class="mb-2 sm:mb-1 text-gray-800 text-base font-normal leading-4">The Economist</h3>
+                            <p class="text-gray-600 text-xs leading-3">Since: 27 February, 2020</p>
+                        </div>
+                    </div>
+                    <div class="w-12 h-6 rounded-full bg-indigo-500 relative shadow-sm">
+                        <div class="w-4 h-4 rounded-full bg-white absolute mr-1 inset-0 m-auto shadow"></div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row items-start sm:items-center">
+                    <p class="font-normal text-sm flex items-center">Status: <span class="text-indigo-500 ml-1">Active</span></p>
+                    <p class="my-1 sm:my-0 sm:mx-8 mx-0 font-normal text-sm flex items-center">Articles Read: <span class="text-indigo-500 ml-1">25</span></p>
+                    <p class="font-normal text-sm flex items-center">Articles Saved: <span class="text-indigo-500 ml-1">08</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Remove class [ h-24 ] when adding a card block -->
+    <!-- Remove class [ border-gray-300 border-dashed border-2 ] to remove dotted border -->
+    <div class="rounded">
+        <div class="bg-white shadow rounded mx-auto pb-4 lg:pb-8">
+            <h2 class="p-4 lg:p-8 text-lg leding-4 font-bold text-gray-800">Approved Payment Modes</h2>
+            <div class="relative bg-gray-100 flex rounded mx-4 lg:mx-8 mb-4">
+                <div class="border-r border-gray-200 flex items-center justify-center">
+                    <div class="w-20 h-20 px-4 py-5">
+                        <img class="w-full h-full overflow-hidden object-cover" src="https://images.unsplash.com/photo-1543699539-33a389c5dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=49&h=38&q=80" alt="master-card" />
+                    </div>
+                </div>
+                <div class="flex pl-4 py-4 lg:py-3 justify-between w-full">
+                    <div class="flex flex-col h-full justify-center">
+                        <h4 class="mb-2 lg:mb-1 text-sm leading-3 font-bold text-gray-800">Ending with 4242</h4>
+                        <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                            <p class="text-xs leading-5 font-normal text-gray-800">Expires 06/21 -</p>
+                            <p class="text-xs leading-5 font-normal text-gray-800">Last updated on 14 March 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 lg:w-auto absolute inset-0 m-auto mt-2 lg:mt-4 mr-2 lg:mr-4 text-indigo-500 hover:text-indigo-600 cursor-pointer icon icon-tabler icon-tabler-edit" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <path d="M9 7 h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />
+                    <path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" />
+                    <line x1="16" y1="5" x2="19" y2="8" />
+                </svg>
+            </div>
+            <div class="relative bg-gray-100 flex rounded mx-4 lg:mx-8 mb-4">
+                <div class="border-r border-gray-200 flex items-center justify-center">
+                    <div class="w-20 h-20 px-4 py-5">
+                        <img class="w-full h-full overflow-hidden object-cover" src="https://images.unsplash.com/photo-1543699539-33a389c5dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=49&h=38&q=80" alt="master-card" />
+                    </div>
+                </div>
+                <div class="flex pl-4 py-4 lg:py-3 justify-between w-full">
+                    <div class="flex flex-col h-full justify-center">
+                        <h4 class="mb-2 lg:mb-1 text-sm leading-3 font-bold text-gray-800">Ending with 4242</h4>
+                        <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                            <p class="text-xs leading-5 font-normal text-gray-800">Expires 06/21 -</p>
+                            <p class="text-xs leading-5 font-normal text-gray-800">Last updated on 14 March 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 lg:w-auto absolute inset-0 m-auto mt-2 lg:mt-4 mr-2 lg:mr-4 text-indigo-500 hover:text-indigo-600 cursor-pointer icon icon-tabler icon-tabler-edit" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <path d="M9 7 h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />
+                    <path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" />
+                    <line x1="16" y1="5" x2="19" y2="8" />
+                </svg>
+            </div>
+            <div class="relative bg-gray-100 flex rounded mx-4 lg:mx-8">
+                <div class="border-r border-gray-200 flex items-center justify-center">
+                    <div class="w-20 h-20 px-4 py-5">
+                        <img class="w-full h-full overflow-hidden object-cover" src="https://images.unsplash.com/photo-1543699539-33a389c5dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=49&h=38&q=80" alt="master-card" />
+                    </div>
+                </div>
+                <div class="flex pl-4 py-4 lg:py-3 justify-between w-full">
+                    <div class="flex flex-col h-full justify-center">
+                        <h4 class="mb-2 lg:mb-1 text-sm leading-3 font-bold text-gray-800">Ending with 4242</h4>
+                        <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                            <p class="text-xs leading-5 font-normal text-gray-800">Expires 06/21 -</p>
+                            <p class="text-xs leading-5 font-normal text-gray-800">Last updated on 14 March 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 lg:w-auto absolute inset-0 m-auto mt-2 lg:mt-4 mr-2 lg:mr-4 text-indigo-500 hover:text-indigo-600 cursor-pointer icon icon-tabler icon-tabler-edit" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <path d="M9 7 h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />
+                    <path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" />
+                    <line x1="16" y1="5" x2="19" y2="8" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="container mx-auto py-12">
+                <div class="xl:flex flex-wrap lg:w-11/12 lg:mx-auto">
+                    <div class="xl:w-3/6 mx-auto xl:mx-0 w-11/12 bg-indigo-500 xl:pl-12 lg:pl-12 pl-6 mb-6 xl:mb-0 pb-20 pt-20 rounded">
+                        <div class="flex xl:w-3/4 w-11/12 justify-between pb-3 border-b items-end">
+                            <form class="flex flex-col w-full">
+                                <label for="email" class="text-2xl mb-5 text-white font-medium">Sign Up to Receive Product Updates and More</label>
+                                <input class="bg-transparent outline-none focus:outline-none text-white placeholder-indigo-300 focus:bg-transparent appearance-none" type="text" name="email" id="email" placeholder="youemail@gmail.com" />
+                            </form>
+                            <div class="cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                                    width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <polyline points="9 6 15 12 9 18" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:w-3/6 mx-auto xl:mx-0 w-11/12 flex sm:flex-row items-start lg:justify-around sm:items-center flex-col">
+                        <div class="xl:w-1/3 xl:ml-24 mb-8 sm:mb-0 sm:w-11/12">
+                            <p class="text-gray-800 font-bold text-xl mb-3">Office</p>
+                            <p class="text-base text-gray-600 leading-loose">
+                                545, Street 11, Block F <br />
+                                Dean Boulevard, Ohio
+                            </p>
+                        </div>
+                        <div class="xl:w-1/3 xl:flex xl:flex-col xl:items-end">
+                            <div>
+                                <p class="text-gray-800 font-bold text-xl mb-3">Contact</p>
+                                <p class="text-base text-gray-600 mb-3 leading-relaxed">+92 302 300 3215</p>
+                                <p class="text-base text-gray-600 break-words">ouraddress@email.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:px-12 xl:px-0 xl:flex lg:flex flex-wrap justify-between sm:mt-20 mt-16 items-center lg:w-11/12 lg:mx-auto pb-6">
+                    <div class="w-11/12 xl:w-2/6 lg:w-2/6 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0">
+                        <p class="text-gray-800 text-base">2020 The Good Company. All Right Reserved</p>
+                    </div>
+                    <div class="w-11/12 xl:w-2/6 lg:w-2/6 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0">
+                        <ul class="xl:flex lg:flex md:flex sm:flex justify-between">
+                            <li class="text-gray-800 hover:text-gray-900 text-base pb-1 mb-4 sm:mb-0">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="text-gray-800 hover:text-gray-900 text-base pb-1 mb-4 sm:mb-0">
+                                <a href="#">Our Work</a>
+                            </li>
+                            <li class="text-gray-800 hover:text-gray-900 text-base pb-1 mb-4 sm:mb-0">
+                                <a href="#">Products</a>
+                            </li>
+                            <li class="text-gray-800 hover:text-gray-900 text-base pb-1 mb-4 sm:mb-0">
+                                <a class="border-b-2 border-indigo-500 pb-2" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-11/12 xl:w-1/6 lg:w-1/6 sm:w-11/12 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0 mt-8 sm:mt-0">
+                        <div class="flex justify-start sm:justify-start xl:justify-end space-x-6 pr-2 xl:pr-0 lg:pr-0 md:pr-0 sm:pr-0">
+                            <div>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-twitter">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dribbble"
+                                        width="24" height="24" height="44" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="#718096" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+                                        <path d="M6.4 19c3.5-3.5 6-6.5 14.5-6.4" />
+                                        <path d="M3.1 10.75c5 0 9.814-.38 15.314-5" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-github">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+</html>
